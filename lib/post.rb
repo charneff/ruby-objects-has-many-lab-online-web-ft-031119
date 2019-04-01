@@ -18,4 +18,9 @@ class Post
       nil 
     end
   end
+  
+  def add_post_by_title(new_post)
+    post = Post.new(new_post)
+    post.author = 
+  end 
 end
